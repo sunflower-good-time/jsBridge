@@ -1,0 +1,23 @@
+{
+  "string": [
+    {
+      "name": "module_test_desc",
+      "value": "test ability description"
+    },
+    {
+      "name": "TestAbility_desc",
+      "value": "the test ability"
+    },
+    {
+      "name": "TestAbility_label",
+      "value": "test label"
+    },  {
+      "name": "internet_reason",
+      "value": "Request network data"
+    },
+    {
+      "name": "network_reason",
+      "value": "Obtaining Network Information"
+    }
+  ]
+}
