@@ -1,47 +1,47 @@
 {
   "ohos-module-entry": {
     "SELECT_TARGET": "default",
-    "MODULE_BUILD_DIR": "/Users/zhoujianfeng/workspace/work/hongmeng/HMWebview/entry/build",
+    "MODULE_BUILD_DIR": "/Users/zhoujianfeng/workspace/work/hongmeng/HMJsBridge/entry/build",
     "TARGETS": {
       "default": {
-        "SOURCE_ROOT": "/Users/zhoujianfeng/workspace/work/hongmeng/HMWebview/entry/src/main",
+        "SOURCE_ROOT": "/Users/zhoujianfeng/workspace/work/hongmeng/HMJsBridge/entry/src/main",
         "RESOURCES_PATH": [
-          "/Users/zhoujianfeng/workspace/work/hongmeng/HMWebview/entry/src/main/resources"
+          "/Users/zhoujianfeng/workspace/work/hongmeng/HMJsBridge/entry/src/main/resources"
         ],
         "BUILD_PATH": {
-          "OUTPUT_PATH": "/Users/zhoujianfeng/workspace/work/hongmeng/HMWebview/entry/build/default/outputs/default",
-          "INTERMEDIA_PATH": "/Users/zhoujianfeng/workspace/work/hongmeng/HMWebview/entry/build/default/intermediates",
-          "JS_ASSETS_PATH": "/Users/zhoujianfeng/workspace/work/hongmeng/HMWebview/entry/build/default/intermediates/loader_out/default",
-          "JS_LITE_ASSETS_PATH": "/Users/zhoujianfeng/workspace/work/hongmeng/HMWebview/entry/build/default/intermediates/loader_out_lite/default",
-          "RES_PATH": "/Users/zhoujianfeng/workspace/work/hongmeng/HMWebview/entry/build/default/intermediates/res/default",
-          "RES_PROFILE_PATH": "/Users/zhoujianfeng/workspace/work/hongmeng/HMWebview/entry/build/default/intermediates/res/default/resources/base/profile",
-          "ETS_SUPER_VISUAL_PATH": "/Users/zhoujianfeng/workspace/work/hongmeng/HMWebview/entry/build/default/cache/default/default@CompileArkTS/esmodule",
-          "JS_SUPER_VISUAL_PATH": "/Users/zhoujianfeng/workspace/work/hongmeng/HMWebview/entry/build/default/cache/default/default@CompileJS/jsbundle",
-          "WORKER_LOADER": "/Users/zhoujianfeng/workspace/work/hongmeng/HMWebview/entry/build/default/intermediates/loader/default/loader.json",
-          "MANIFEST_JSON": "/Users/zhoujianfeng/workspace/work/hongmeng/HMWebview/entry/build/default/intermediates/manifest/default",
-          "OUTPUT_METADATA_JSON": "/Users/zhoujianfeng/workspace/work/hongmeng/HMWebview/entry/build/default/intermediates/hap_metadata/default/output_metadata.json"
+          "OUTPUT_PATH": "/Users/zhoujianfeng/workspace/work/hongmeng/HMJsBridge/entry/build/default/outputs/default",
+          "INTERMEDIA_PATH": "/Users/zhoujianfeng/workspace/work/hongmeng/HMJsBridge/entry/build/default/intermediates",
+          "JS_ASSETS_PATH": "/Users/zhoujianfeng/workspace/work/hongmeng/HMJsBridge/entry/build/default/intermediates/loader_out/default",
+          "JS_LITE_ASSETS_PATH": "/Users/zhoujianfeng/workspace/work/hongmeng/HMJsBridge/entry/build/default/intermediates/loader_out_lite/default",
+          "RES_PATH": "/Users/zhoujianfeng/workspace/work/hongmeng/HMJsBridge/entry/build/default/intermediates/res/default",
+          "RES_PROFILE_PATH": "/Users/zhoujianfeng/workspace/work/hongmeng/HMJsBridge/entry/build/default/intermediates/res/default/resources/base/profile",
+          "ETS_SUPER_VISUAL_PATH": "/Users/zhoujianfeng/workspace/work/hongmeng/HMJsBridge/entry/build/default/cache/default/default@CompileArkTS/esmodule",
+          "JS_SUPER_VISUAL_PATH": "/Users/zhoujianfeng/workspace/work/hongmeng/HMJsBridge/entry/build/default/cache/default/default@CompileJS/jsbundle",
+          "WORKER_LOADER": "/Users/zhoujianfeng/workspace/work/hongmeng/HMJsBridge/entry/build/default/intermediates/loader/default/loader.json",
+          "MANIFEST_JSON": "/Users/zhoujianfeng/workspace/work/hongmeng/HMJsBridge/entry/build/default/intermediates/manifest/default",
+          "OUTPUT_METADATA_JSON": "/Users/zhoujianfeng/workspace/work/hongmeng/HMJsBridge/entry/build/default/intermediates/hap_metadata/default/output_metadata.json"
         },
         "BUILD_OPTION": {
           "debuggable": true
         }
       },
       "ohosTest": {
-        "SOURCE_ROOT": "/Users/zhoujianfeng/workspace/work/hongmeng/HMWebview/entry/src/ohosTest",
+        "SOURCE_ROOT": "/Users/zhoujianfeng/workspace/work/hongmeng/HMJsBridge/entry/src/ohosTest",
         "RESOURCES_PATH": [
-          "/Users/zhoujianfeng/workspace/work/hongmeng/HMWebview/entry/src/ohosTest/resources"
+          "/Users/zhoujianfeng/workspace/work/hongmeng/HMJsBridge/entry/src/ohosTest/resources"
         ],
         "BUILD_PATH": {
-          "OUTPUT_PATH": "/Users/zhoujianfeng/workspace/work/hongmeng/HMWebview/entry/build/default/outputs/ohosTest",
-          "INTERMEDIA_PATH": "/Users/zhoujianfeng/workspace/work/hongmeng/HMWebview/entry/build/default/intermediates",
-          "JS_ASSETS_PATH": "/Users/zhoujianfeng/workspace/work/hongmeng/HMWebview/entry/build/default/intermediates/loader_out/ohosTest",
-          "JS_LITE_ASSETS_PATH": "/Users/zhoujianfeng/workspace/work/hongmeng/HMWebview/entry/build/default/intermediates/loader_out_lite/ohosTest",
-          "RES_PATH": "/Users/zhoujianfeng/workspace/work/hongmeng/HMWebview/entry/build/default/intermediates/res/ohosTest",
-          "RES_PROFILE_PATH": "/Users/zhoujianfeng/workspace/work/hongmeng/HMWebview/entry/build/default/intermediates/res/ohosTest/resources/base/profile",
-          "ETS_SUPER_VISUAL_PATH": "/Users/zhoujianfeng/workspace/work/hongmeng/HMWebview/entry/build/default/cache/ohosTest/ohosTest@OhosTestCompileArkTS/esmodule",
-          "JS_SUPER_VISUAL_PATH": "/Users/zhoujianfeng/workspace/work/hongmeng/HMWebview/entry/build/default/cache/ohosTest/ohosTest@OhosTestCompileJS/jsbundle",
-          "WORKER_LOADER": "/Users/zhoujianfeng/workspace/work/hongmeng/HMWebview/entry/build/default/intermediates/loader/ohosTest/loader.json",
-          "MANIFEST_JSON": "/Users/zhoujianfeng/workspace/work/hongmeng/HMWebview/entry/build/default/intermediates/manifest/ohosTest",
-          "OUTPUT_METADATA_JSON": "/Users/zhoujianfeng/workspace/work/hongmeng/HMWebview/entry/build/default/intermediates/hap_metadata/ohosTest/output_metadata.json"
+          "OUTPUT_PATH": "/Users/zhoujianfeng/workspace/work/hongmeng/HMJsBridge/entry/build/default/outputs/ohosTest",
+          "INTERMEDIA_PATH": "/Users/zhoujianfeng/workspace/work/hongmeng/HMJsBridge/entry/build/default/intermediates",
+          "JS_ASSETS_PATH": "/Users/zhoujianfeng/workspace/work/hongmeng/HMJsBridge/entry/build/default/intermediates/loader_out/ohosTest",
+          "JS_LITE_ASSETS_PATH": "/Users/zhoujianfeng/workspace/work/hongmeng/HMJsBridge/entry/build/default/intermediates/loader_out_lite/ohosTest",
+          "RES_PATH": "/Users/zhoujianfeng/workspace/work/hongmeng/HMJsBridge/entry/build/default/intermediates/res/ohosTest",
+          "RES_PROFILE_PATH": "/Users/zhoujianfeng/workspace/work/hongmeng/HMJsBridge/entry/build/default/intermediates/res/ohosTest/resources/base/profile",
+          "ETS_SUPER_VISUAL_PATH": "/Users/zhoujianfeng/workspace/work/hongmeng/HMJsBridge/entry/build/default/cache/ohosTest/ohosTest@OhosTestCompileArkTS/esmodule",
+          "JS_SUPER_VISUAL_PATH": "/Users/zhoujianfeng/workspace/work/hongmeng/HMJsBridge/entry/build/default/cache/ohosTest/ohosTest@OhosTestCompileJS/jsbundle",
+          "WORKER_LOADER": "/Users/zhoujianfeng/workspace/work/hongmeng/HMJsBridge/entry/build/default/intermediates/loader/ohosTest/loader.json",
+          "MANIFEST_JSON": "/Users/zhoujianfeng/workspace/work/hongmeng/HMJsBridge/entry/build/default/intermediates/manifest/ohosTest",
+          "OUTPUT_METADATA_JSON": "/Users/zhoujianfeng/workspace/work/hongmeng/HMJsBridge/entry/build/default/intermediates/hap_metadata/ohosTest/output_metadata.json"
         },
         "BUILD_OPTION": {
           "debuggable": true
@@ -51,10 +51,10 @@
   },
   "ohos-project": {
     "SELECT_PRODUCT_NAME": "default",
-    "MODULE_BUILD_DIR": "/Users/zhoujianfeng/workspace/work/hongmeng/HMWebview/build",
+    "MODULE_BUILD_DIR": "/Users/zhoujianfeng/workspace/work/hongmeng/HMJsBridge/build",
     "BUNDLE_NAME": "com.example.hmwebview",
     "BUILD_PATH": {
-      "OUTPUT_PATH": "/Users/zhoujianfeng/workspace/work/hongmeng/HMWebview/build/outputs/default"
+      "OUTPUT_PATH": "/Users/zhoujianfeng/workspace/work/hongmeng/HMJsBridge/build/outputs/default"
     }
   },
   "version": 1

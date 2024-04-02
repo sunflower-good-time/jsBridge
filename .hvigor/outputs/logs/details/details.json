@@ -20,19 +20,19 @@
       }
     ]
   },
-  "totalTime": 1216460084,
+  "totalTime": 4451741041,
   "moduleNum": 1,
   "taskTime": {
-    "compileArkTS": 778201792,
+    "compileArkTS": 3989847958,
     "buildArkTS": 0,
     "compileJS": 0,
-    "buildJS": 1120417,
-    "compileResource": 62849959,
-    "packageHap": 196356417,
-    "signHap": 488416
+    "buildJS": 1049333,
+    "compileResource": 31994250,
+    "packageHap": 227930750,
+    "signHap": 583250
   },
   "isIncremental": true,
-  "hasIncremental": true,
+  "hasIncremental": false,
   "isParallel": true,
   "IS_DAEMON": true,
   "LOG_LEVEL": "INFO",
@@ -61,5 +61,6 @@
     {
       "NAME": "release"
     }
-  ]
+  ],
+  "aotCompileMode": "type"
 }

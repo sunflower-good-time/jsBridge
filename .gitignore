@@ -1,6 +1,10 @@
 *.iml
 .gradle
 /local.properties
+/.hvigor
+/.hvigor/cache
+/.hvigor/outputs
+/.hvigor/report
 /.idea
 /.idea/caches
 /.idea/libraries
