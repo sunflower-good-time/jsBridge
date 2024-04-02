@@ -14,8 +14,7 @@
 
 使用方法：
 
-  aboutToAppear() {
-    this.jsBridge.registerHandler("test_call", {
+ this.jsBridge.registerHandler("test_call", {
       handler: (data: string, fun: CallBackFunction) => {
         let textBean = new TestBean()
         textBean.map = new HashMap()
@@ -23,14 +22,10 @@
         fun.onCallBack("native 返回" + JSON.stringify(textBean))
       }
     })
-  }
-  
-  private getJsContent() {
 
-    this.jsBridge.callHandler("getJsContent","test",{onCallBack:(data:string)=>{
+this.jsBridge.callHandler("getJsContent","test",{onCallBack:(data:string)=>{
       this.txt = data
     }})
-  }
 
 
 如果对大家有帮助，希望顺手帮忙点个starred
